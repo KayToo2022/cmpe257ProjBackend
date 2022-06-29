@@ -14,7 +14,7 @@ def serve(path):
 class status(Resource):    
     def get(self):
         try:
-            return {'data': 'Api running'}
+            return {'data': 'Api running, git enabled'}
         except Exception as e: 
             return {'data': e}
 
