@@ -1,5 +1,6 @@
 from flask_restful import Api, Resource, reqparse
 
+# API accesses classes
 class HelloApiHandler(Resource):
   # A simple get function
   def get(self):
